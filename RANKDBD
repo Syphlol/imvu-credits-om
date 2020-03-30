@@ -1,0 +1,10 @@
+local yes =
+{
+["Rank"] =
+{
+["Name"] = "Rank",
+["Amount"] = 1 -- Best rank
+}
+}
+local Remote = game.ReplicatedStorage.RemoteEvents.UpdateStatsCache
+Remote:FireServer(yes)
